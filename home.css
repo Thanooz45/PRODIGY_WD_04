@@ -1,12 +1,12 @@
-/* General Styles */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: repeating-linear-gradient(360deg, #333, #111, #000, #111, #333, #111, #000);
-    color: white; /* Ensure body text is white */
+    color: white; 
 }
 
-/* Navbar */
+
 .navbar {
     background-color: transparent;
     position: fixed;
@@ -22,7 +22,7 @@ body {
     font-size: 0.9rem;
 }
 
-/* Hamburger Menu Icon */
+
 .navbar-toggler-icon {
     background-color: white;
     width: 20px;
@@ -45,7 +45,6 @@ body {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M3 7h24M3 15h24M3 23h24'/%3E%3C/svg%3E");
 }
 
-/* Top Section */
 #topSection {
     background: transparent;
     color: white;
@@ -60,7 +59,6 @@ body {
     font-size: 1.2rem;
 }
 
-/* Section Spacing */
 .container {
     margin-bottom: 80px;
 }
@@ -70,7 +68,6 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-/* About Section Styles */
 .knowimage {
     height: 100px;
     width: 100px;
@@ -81,7 +78,6 @@ body {
     transform: scale(1.1);
 }
 
-/* Certificates Section */
 .img1 {
     height: 100px;
     width: 150px;
@@ -92,14 +88,13 @@ body {
     transform: scale(1.1);
 }
 
-/* Contact Section Icons */
 .contact-section i {
     font-size: 24px;
-    color: white; /* Ensures icons are white */
+    color: white; 
     margin: 0 15px;
 }
 
-/* Section Hover Zoom Effect */
+
 section {
     padding: 5rem 0;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -107,14 +102,13 @@ section {
 
 section:hover {
     transform: scale(1.03);
-    background-color: rgba(128, 128, 128, 0.1); /* Grey light effect */
+    background-color: rgba(128, 128, 128, 0.1); 
 }
 
-/* Lower Section */
 .lowerseg {
     background-color: #8311a6;
     width: 250px;
-    color: white; /* Text color for lower segment */
+    color: white; 
     border-radius: 30px;
     text-align: center;
 }
@@ -123,7 +117,7 @@ section:hover {
     color: white;
 }
 
-/* Certificate Images */
+
 .img1 {
     height: 100px;
     width: 150px;
@@ -138,7 +132,7 @@ section:hover {
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.3);
 }
 
-/* Modal Image Styling */
+
 .modal-body img {
     max-width: 100%;
     height: auto;
@@ -146,21 +140,18 @@ section:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
-/* Centered Modal */
 .modal-dialog-centered {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Modal Background */
 .modal-content {
     background-color: #111;
     border: none;
     color: white;
 }
 
-/* Modal Close Button */
 .modal-header .close {
     color: white;
     opacity: 1;
@@ -171,7 +162,6 @@ section:hover {
     color: #f8d7da;
 }
 
-/* Modal Footer Buttons */
 .modal-footer button {
     background-color: #007bff;
     color: white;
@@ -185,7 +175,6 @@ section:hover {
     background-color: #0056b3;
 }
 
-/* Icon Hover Effect */
 .ist svg {
     width: 40px;
     height: 40px;
@@ -198,7 +187,6 @@ section:hover {
     transform: scale(1.2);
 }
 
-/* Footer Styling */
 .footer {
     background-color: #111;
     color: #fff;
@@ -235,13 +223,12 @@ section:hover {
     color: #0056b3;
 }
 
-/* Set the color of all text elements to white */
 body {
     color: white;
-    background-color: black; /* Optional: For contrast */
+    background-color: black; 
   }
   
-  /* Additional styles for specific elements */
+
   h1, h2, h3, h4, h5, h6 {
     color: white;
   }
@@ -256,7 +243,7 @@ body {
   }
   
   a:hover {
-    color: lightgray; /* Optional: Slight change on hover */
+    color: lightgray; 
   }
 .cnwith{
     background-color: #8311a6;
